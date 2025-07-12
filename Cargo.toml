@@ -1,0 +1,11 @@
+[package]
+name = "rust_template"
+version = "0.1.0"
+edition = "2024"
+authors = ["Georg Pohl, georgpohl@gmx.de"]
+description = "Your project description"
+repository = "https://github.com/your/repo"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }

@@ -19,6 +19,14 @@ fn main() {
     for _ in 0..args.count {
 	println!("Hello, {}!", args.name);
     }
+
+// The responsibilities that remain in the main function after this process should be limited to the following:
+
+// - Calling the command line parsing logic with the argument values
+// - Setting up any other configuration
+// - Calling a run function in lib.rs
+// - Handling the error if run returns an error    
+
 }
 
 // cargo generate username-on-github/mytemplate

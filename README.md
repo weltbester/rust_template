@@ -1,1 +1,1 @@
-# rust_template
+# new rust_template

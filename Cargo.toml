@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Georg Pohl, georgpohl@gmx.de"]
 description = "Your project description"
-repository = "https://github.com/your/repo"
+repository = "https://github.com/weltbester/rust_template.git"
 license = "MIT"
 
 [dependencies]
